@@ -1,15 +1,15 @@
 import Header from "./components/Header"
-import Main from "./components/Main.jsx"
+import MainStore from "./components/MainStore.jsx"
 import Footer from "./components/Footer"
-function App(){
+function AppStore(){
   return (    
     <>
       <Header></Header>
-      <Main></Main>
+      <MainStore></MainStore>
       <Footer></Footer>
     </>
   )
 }
 
 
-export default App
+export default AppStore
