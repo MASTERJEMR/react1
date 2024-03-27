@@ -3,7 +3,7 @@ import Link from "./Link"
 function NavBar(props) {
     return (
       
-        <nav className="text-xl hidden md:block p-5 space-x-20">
+        <nav className="text-xl hidden md:block p-5 space-x-5">
         <Link
         text="Inscipciones"
         link="store.html"
