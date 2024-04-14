@@ -23,9 +23,7 @@ function NavBar(props) {
         <ItemListContainer 
         greeting="Greeting"
         link="index.html"   
-        />
-
-        
+        />     
       </nav>
     )
   }
