@@ -4,13 +4,10 @@ function NavBar(props) {
     return (
       
         <nav className="text-xl hidden md:block p-5 space-x-5">
-        <Link
-        text="Inscipciones"
-        link="store.html"
-        />
+        
         <Link
         text="Deportistas"
-        link="store.html"
+        link="deportistas.html"
         />
         <Link
         text="Contactenos"

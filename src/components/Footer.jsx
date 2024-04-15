@@ -4,7 +4,7 @@ function Footer(){
     return(
     <footer className="bg-[#FD4900] p-1  shadow-md text-center  flex justify-center">
       <div>
-        <img className="" src={sedFooter} width="300hv"alt="Olimpiadas SED" srcset="" /> 
+        <img className="" srcSet={sedFooter} width="300hv"alt="Olimpiadas SED"  /> 
       </div>
       <div><a className="efestos text-sm hover:text-white" href="http://efestos.com.co">Powered by EFESTOS ©</a>
       </div>   

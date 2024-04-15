@@ -27,7 +27,7 @@ function Main(){
                 title="Deportistas" 
                 image="https://masterjemr.github.io/Entrega-Final/images/home1.jpg"
                 text="Conoce a nuestros deportista " 
-                link={access}/>
+                link="deportistas.html"/>
                 </div>
                 <div className="m-8">
                 <Tarjeta
