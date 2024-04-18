@@ -27,7 +27,7 @@ const fakeStore=async()=>{
                     <img src="https://masterjemr.github.io/Entrega-Final/images/g14.png"></img>
                 </div>
             </div>
-            <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
+            <div class="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
                 <div className="m-8">
                 {characters.map((character)=>{
                         console.log(character)

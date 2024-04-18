@@ -9,9 +9,7 @@ function CartJock(props) {    const [cont,setCont]=useState(0)
   }
   const handleClickMinus = () =>{
     
-    if(cont >0)  setCont(cont-1)      
-    //if(cont =>0) setCont(cont-1)      
-    // console.log("clip")
+    if(cont >0)  setCont(cont-1)    
 
   }
 
@@ -20,7 +18,7 @@ return (
     <h4 className='text-2xl'>{props.title}</h4>
    <img className="size-40 rounded-md" src={props.image} alt={props.title}></img>
     {props.text}<br></br>
-    <div className='precio'>{props.precio}</div>
+    <div className='precio'>$ {props.price}</div>
     <div><Button onClick={handleClickAdd}><span><p className='efestosCompra'>+</p> </span></Button>
     <Button>{cont}</Button><Button onClick={handleClickMinus}><span><p className='efestosCompra'>-</p> </span></Button>
     </div>
