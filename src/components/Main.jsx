@@ -11,6 +11,7 @@ function Main(){
                 <Route path="/" element={<Home/>}/>
                 <Route path="/index.html" element={<Home/>}/>
                 <Route path="/store2.html" element={<Store/>}/>
+                <Route path=":" element={<Error/>}/>
                 <Route path="*" element={<Error/>}/>
 
             </Routes>
