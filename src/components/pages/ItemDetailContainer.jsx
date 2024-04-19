@@ -1,10 +1,9 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom"
-function Product(){
+function ItemDetailContainer(){
     const params = useParams()
     const {id}=useParams()
     const [product,setProduct]= useState({})
-   
 
 
     fetch('https://fakestoreapi.com/products/'+id)
@@ -43,4 +42,4 @@ function Product(){
         </div>
     )
 }
-export default Product 
+export default ItemDetailContainer 

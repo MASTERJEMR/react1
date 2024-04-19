@@ -16,17 +16,17 @@ function Products(props) {
   }
 
 return (
-  <div className={`p-5 justify-items-center  ${cont>0 ? "bg-blue-300" : "bg-white-500" }` } key={props.id}>
+  <div className={`p-5 shadow-xl justify-items-center  ${cont>0 ? "bg-blue-300" : "bg-white-500" }` } key={props.id}>
 
     
    <div className="content-center">
-   <img className="size-40 rounded-md" src={props.image} alt={props.title}></img>
+   <img className="size-40 rounded-md hover:scale-125 duration-500" src={props.image} alt={props.title}></img>
     {props.text}<br/>
    </div>  
    
     <div>
         <p className='text-2xl'>{props.title}</p>
-        <Link to={`/ItemListContainer/${props.id}`}>Conoce  +</Link>
+        <Link to={`/ItemDetailContainer/${props.id}`}>Conoce  +</Link>
     </div>
     <div className='precio text-center'>$ {props.price}</div>
     <div className="text-center"><Button onClick={handleClickAdd}><span><p className='efestosCompra'>+</p> </span></Button>
