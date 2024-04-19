@@ -6,7 +6,7 @@ function NavBar(props) {
        <nav className="text-xl hidden md:block p-5 space-x-5">
         <LinkNav
           text="Tienda"
-          link="store"
+          link="ItemListContainer"
           />
           <LinkNav
           text="Contactenos"

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import CartWidget from "../CartWidget"
 import Products from "../Products"
-function Store(){
+function ItemListContainer(){
 
 const [characters,setCharacters]=useState([])
 useEffect(()=>{
@@ -31,4 +31,4 @@ return(
     </>
 )
 }
-export default Store
+export default ItemListContainer
