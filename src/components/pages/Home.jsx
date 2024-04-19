@@ -9,7 +9,7 @@ function Home(){
                         <h2 className="text-7xl">Muy pronto!!!</h2><p>Con cada paso, hacemos historia.</p>
                 </div>
                 <div className="flex-initial w-128 ">
-                    <img src="https://masterjemr.github.io/Entrega-Final/images/g14.png"></img>
+                    <img src="https://masterjemr.github.io/Entrega-Final/images/g14.png" alt="principal"></img>
                 </div>
         </div> 
         <div>

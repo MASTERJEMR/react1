@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import CartWidget from "../CartWidget"
-import CartJock from "../CartJock"
+import Products from "../Products"
 function Store(){
 
 const [characters,setCharacters]=useState([])
@@ -18,9 +18,9 @@ return(
     <>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 m-8">
                 {characters.map((character)=>{
-                        console.log(character)
-                        return <CartJock
-                        key={character.id}
+                       //console.log(character)
+                        return <Products
+                        id={character.id}
                         title={character.title}
                         image={character.image}
                         description={character.description}

@@ -2,9 +2,9 @@ import { Link } from "react-router-dom"
 import { useState, useEffect } from "react"
 import { Button } from 'antd'
 
-function CartJock(props) {    
+function Products(props) {    
   const [cont,setCont]=useState(0)
-console.log(props)
+//console.log(props)
   const handleClickAdd = () =>{
     setCont(cont+1)
     // console.log("clip")
@@ -16,17 +16,20 @@ console.log(props)
   }
 
 return (
-  <div className={`items-center ${cont>0 ? "bg-blue-300" : "bg-white-500" }` } key={props.id}>
+  <div className={`p-5 justify-items-center  ${cont>0 ? "bg-blue-300" : "bg-white-500" }` } key={props.id}>
 
     
-     <h4 className='text-2xl'>{props.title}</h4>
+   <div className="content-center">
    <img className="size-40 rounded-md" src={props.image} alt={props.title}></img>
     {props.text}<br/>
+   </div>  
+   
     <div>
-      <Link to={`/${props.id}`}>Conoce  +{props.id}</Link>
+        <p className='text-2xl'>{props.title}</p>
+        <Link to={`/${props.id}`}>Conoce  +{props.id}</Link>
     </div>
-    <div className='precio'>$ {props.price}</div>
-    <div><Button onClick={handleClickAdd}><span><p className='efestosCompra'>+</p> </span></Button>
+    <div className='precio text-center'>$ {props.price}</div>
+    <div className="text-center"><Button onClick={handleClickAdd}><span><p className='efestosCompra'>+</p> </span></Button>
     <Button>{cont}</Button><Button onClick={handleClickMinus}><span><p className='efestosCompra'>-</p> </span></Button>
     </div> 
 
@@ -35,4 +38,4 @@ return (
 )
 }
 
-export default CartJock
+export default Products

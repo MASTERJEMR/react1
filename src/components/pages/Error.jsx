@@ -4,7 +4,9 @@ function Error(){
     const access="index.hmtl"
     return (
         <>
-        <div className="flex">
+        <meta http-equiv="refresh" content="50; url=index.html" />
+        <div 
+        className="flex">
                 <div className="efestos flex-initial w-64 text-orange-400">
                         <h2 className="text-7xl">404!</h2><p>Con cada paso, hacemos historia.</p>
                 </div>
