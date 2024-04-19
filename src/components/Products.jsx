@@ -26,7 +26,7 @@ return (
    
     <div>
         <p className='text-2xl'>{props.title}</p>
-        <Link to={`/${props.id}`}>Conoce  +{props.id}</Link>
+        <Link to={`/store/${props.id}`}>Conoce  +</Link>
     </div>
     <div className='precio text-center'>$ {props.price}</div>
     <div className="text-center"><Button onClick={handleClickAdd}><span><p className='efestosCompra'>+</p> </span></Button>

@@ -4,7 +4,7 @@ function Error(){
     const access="index.hmtl"
     return (
         <>
-        <meta http-equiv="refresh" content="50; url=index.html" />
+        <meta http-equiv="refresh" content="5; url=/" />
         <div 
         className="flex">
                 <div className="efestos flex-initial w-64 text-orange-400">

@@ -6,7 +6,7 @@ function Header(){
     return(
     
     <header className="bg-slate-400 p-4 flex justify-between shadow-md">
-     <Link to="/index.html"><img srcSet={logo} width="300hv" alt="Olimpiadas SED"/></Link>
+     <Link to="/index"><img srcSet={logo} width="300hv" alt="Olimpiadas SED"/></Link>
       <NavBar />
     </header>   
 

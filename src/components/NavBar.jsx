@@ -6,11 +6,11 @@ function NavBar(props) {
        <nav className="text-xl hidden md:block p-5 space-x-5">
         <LinkNav
           text="Tienda"
-          link="store.html"
+          link="store"
           />
           <LinkNav
           text="Contactenos"
-          link="contactenos.html"
+          link="contactenos"
           />
       </nav>
     )

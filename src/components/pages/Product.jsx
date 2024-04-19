@@ -23,7 +23,7 @@ function Product(){
                 <div>
                     <img src={product.image} alt={product.title} 
                     srcset={`${product.image}  300w, ${product.image} 768w, ${product.image} 1280w`} 
-                    sizes="(max-width: 300px) 300px, (max-width: 768px) 768px, 1000px"
+                    sizes="(max-width: 300px) 300px, (max-width: 768px) 400px, 500px"
                     />
                 </div>
                 <div className="content-center">

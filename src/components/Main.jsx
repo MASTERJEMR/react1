@@ -6,14 +6,13 @@ import Product from "./pages/Product"
 function Main(){
     return(
 
-        <main>
+        <main className="h-full max-h-full">
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/index.html" element={<Home/>}/>
-                <Route path="/store.html" element={<Store/>}/>
-                <Route path="/:id"  element={<Product/>}/>
-                {/* <Route path="*" element={<Error/>}/> 
- */}
+                <Route path="/index" element={<Home/>}/>
+                <Route path="/store" element={<Store/>}/>
+                <Route path="/store/:id"  element={<Product/>}/>
+                <Route path="*" element={<Error/>}/> 
             </Routes>
         </main>
     )
