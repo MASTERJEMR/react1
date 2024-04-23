@@ -10,35 +10,29 @@ function ItemDetailContainer(){
             .then(res=>res.json())
             //.then(json=>console.log(json))
             .then((product)=>{
-                console.log(product)
+               // console.log(product)
                 setProduct(product)
             }),[];
 
     return(
-        <div key={product.id}>  
-          <div className="flex items-center" ><h2>Producto: {product.title}</h2></div>  
+
+        <div >  
+          <div className="flex items-center" key={product.id} ><h2>Producto: {product.title}</h2></div>  
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2  "> 
 
                 <div>
                     <img src={product.image} alt={product.title} 
-                    srcset={`${product.image}  300w, ${product.image} 768w, ${product.image} 1280w`} 
+                    srcSet={`${product.image}  300w, ${product.image} 768w, ${product.image} 1280w`} 
                     sizes="(max-width: 300px) 300px, (max-width: 768px) 400px, 550px"
                     />
                 </div>
-                <div className="content-center">
-                    <p>
-                        
+                <div className="content-center">        
                         <h3>DESCRIPCION:</h3>{product.description}
                         <br/><h3>CATEGORIA:</h3>{product.category}
                         <br/><h3>PRECIO:</h3>$ {product.price}
                         <br />
-                    </p>
-                </div>
-
-                
-            
+                </div>             
             </div>
-
         </div>
     )
 }
