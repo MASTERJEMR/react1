@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
+import  ButtonSection from "../Selection"
 
 import Products from "../Products"
 function ItemListContainer(){
@@ -28,6 +29,12 @@ const fakeStore=async()=>{
 return(
 
     <div className="grid gap-x-8 gap-y-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 m-8">
+       <ButtonSection text="ELECTRONICOS 🤖"       a="/category/electronics"  />
+       <ButtonSection text="JOYERIA 💎"       a="/category/jewelery"  />
+       <ButtonSection text="Vestuario 🧔"       a="/category/men's%20clothing"  />
+       <ButtonSection text="Vestuario 👩"       a="/category/men's%20clothing"  />
+
+        
         {characters.map((character)=>{
                 //console.log(character)
                 return <Products

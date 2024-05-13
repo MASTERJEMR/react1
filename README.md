@@ -18,6 +18,8 @@ Estructura del proyecto
                                 |_Main.jsx (Continene la función que direcciona o rutea al usuario hacia las diferentes páginas)
                                 |_MainJocks.jsx (Encargado presentar a los deportistas, ya no se utiliza)
                                 |_MainStore.jsx (Encargado presentar a los deportistas, ya no se utiliza)
+                                |_Selection.jsx (Genera los botones para seleccionar el tipo de producto)
+
                     |_pages
                             |_Error.jsx (Renderiza la página de error cuando se busca una página que no existe)
                             |_Home.jsx (Renderiza la página principal)
