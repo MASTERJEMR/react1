@@ -9,7 +9,7 @@ function Header(){
     <header className="bg-slate-400 p-4 flex justify-between shadow-md">
       <Link to="/index"><img srcSet={logo} width="300hv" alt="Olimpiadas SED"/></Link>
       
-      <NavbarStore/>{/* <NavBar /> */}
+      <NavbarStore/>
     </header>   
 
     )

@@ -12,6 +12,7 @@ function Main(){
                 <Route path="/" element={<Home/>}/>
                 <Route path="/index" element={<Home/>}/>
                 <Route path="/ItemListContainer" element={<ItemListContainer/>}/>
+                <Route path="/ItemListContainer/category/:cat"  element={<ItemListContainer/>}/>
                 <Route path="/category/:cat"  element={<ItemListContainer/>}/>
                 <Route path="/ItemDetailContainer/:id"  element={<ItemDetailContainer/>}/>
                 <Route path="*" element={<Error/>}/> 
