@@ -8,15 +8,12 @@ function NavbarStore() {
 
     return (
         <nav className=" flex space-x-4 items-center">
-            <LinkNav
-                text="home"
-                link="index"
-            />
+            
             <LinkNav
                 text="PRODUCTOS"
                 link="ItemListContainer"
             />
-            <LinkNav
+            {/* <LinkNav
                 text="men's clothing"
                 link="category/men's clothing"
             />
@@ -27,11 +24,11 @@ function NavbarStore() {
             <LinkNav
                 text="Electronics"
                 link="category/electronics"
-            />
-            {/* <LinkNav
-                text="electronics"
-                link="category/electronics"
             /> */}
+            { <LinkNav
+                text="Registro"
+                link="/register"
+            /> }
         </nav>
     )
 }

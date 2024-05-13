@@ -32,9 +32,7 @@ return(
        <ButtonSection text="ELECTRONICOS 🤖"       a="/category/electronics"  />
        <ButtonSection text="JOYERIA 💎"       a="/category/jewelery"  />
        <ButtonSection text="Vestuario 🧔"       a="/category/men's%20clothing"  />
-       <ButtonSection text="Vestuario 👩"       a="/category/men's%20clothing"  />
-
-        
+       <ButtonSection text="Vestuario 👩"       a="/category/women's%20clothing"  />        
         {characters.map((character)=>{
                 //console.log(character)
                 return <Products

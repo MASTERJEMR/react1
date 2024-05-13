@@ -19,10 +19,13 @@ Estructura del proyecto
                                 |_MainJocks.jsx (Encargado presentar a los deportistas, ya no se utiliza)
                                 |_MainStore.jsx (Encargado presentar a los deportistas, ya no se utiliza)
                                 |_Selection.jsx (Genera los botones para seleccionar el tipo de producto)
+                                |_LabelForm.jsx (label para formularios)
+
 
                     |_pages
                             |_Error.jsx (Renderiza la página de error cuando se busca una página que no existe)
                             |_Home.jsx (Renderiza la página principal)
-                            |_ItemListContainer (Renderiza la página de los productos)
-                            |_ItemDetailContainer (Renderiza la página de los detalles de un producto determinado)
+                            |_ItemListContainer.jsx (Renderiza la página de los productos)
+                            |_ItemDetailContainer.jsx (Renderiza la página de los detalles de un producto determinado)
+                            |_UserForm.jsx (captura los datos del comprador)
 
