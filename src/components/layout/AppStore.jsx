@@ -1,5 +1,5 @@
 import Header from "./components/Header"
-import MainStore from "./components/MainStore.jsx"
+import MainStore from "../MainStore.jsx"
 import Footer from "./components/Footer"
 function AppStore(){
   return (    

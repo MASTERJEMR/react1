@@ -1,6 +1,6 @@
 import Header from "./components/Header"
 import Footer from "./components/Footer"
-import MainJocks from "./components/MainJocks.jsx"
+import MainJocks from "../MainJocks.jsx"
 function AppJocks(){
   return (    
     <>

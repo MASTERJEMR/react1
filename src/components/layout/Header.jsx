@@ -1,6 +1,7 @@
-import logo from "./images/olimpiadas-sed-2023-2.png"
+/* import logo from "./images/olimpiadas-sed-2023-2.png" */
+import logo from "../images/olimpiadas-sed-2023-2.png"
 import { Link } from "react-router-dom"
-import NavbarStore from "./NavbarStore"
+import NavbarStore from "../NavbarStore"
 function Header(){
   
     return(

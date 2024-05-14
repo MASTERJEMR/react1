@@ -1,9 +1,9 @@
 import { Route,Router,Routes } from "react-router-dom"
-import Home from "./pages/Home"
-import Error from "./pages/Error"
-import ItemDetailContainer from "./pages/ItemDetailContainer"
-import ItemListContainer from "./pages/ItemListContainer"
-import UserForm from "./pages/UserForm"
+import Home from "../pages/Home"
+import Error from "../pages/Error"
+import ItemDetailContainer from "../pages/ItemDetailContainer"
+import ItemListContainer from "../pages/ItemListContainer"
+import UserForm from "../pages/UserForm"
 
 function Main(){
     return(

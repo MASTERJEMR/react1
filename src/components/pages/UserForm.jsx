@@ -1,10 +1,12 @@
 import React, { useState } from 'react' 
 import LabelForm from "../LabelForm"
 function UserForm(){
+        const a="none"
         const [name,setName]=useState("");
         const [document,setDocument]=useState("");
         const [cell,setCell]=useState("");
         const [email,setEmail]=useState("");
+        
 
         const handleSubmit=(e)=>{
             e.preventDefault()
@@ -14,7 +16,9 @@ function UserForm(){
         }
 
         const onNameChange=(name)=>{
-            setName(name)        
+            setName(name)
+            
+            /* console.log(name) */       
         }
         const onDocumentChange=(document)=>{
             setDocument(document)
@@ -30,7 +34,8 @@ function UserForm(){
         
         <div>
             <div><center><img src="https://masterjemr.github.io/jsFinal/images/rec.png" alt="Contactenos" className='h-40'/></center></div>
-            <form onSubmit={handleSubmit}>
+            <p className='font-bold'>Hola {name}<br/>Registra tus datos </p>
+            <form className='py-2 w-10/12 ' onSubmit={handleSubmit}>
             <LabelForm onChange={onNameChange} id='name' text='Nombre' placeholder='Nombres Apellidos'/>
             <LabelForm onChange={onDocumentChange} id='documento' text='N° Documento' placeholder='Documento' type='number'/>
             <LabelForm onChange={onCellChange} id='celular' text='N° celular' placeholder='300#######' type='number'/>

@@ -5,7 +5,7 @@ import  ButtonSection from "../Selection"
 import Products from "../Products"
 function ItemListContainer(){
     const params = useParams()
-    console.log(params.cat)
+    /* console.log(params.cat) */
     let a ="https://fakestoreapi.com/products/"
     if(params.cat){
         console.log("el valor de a es "+a)
@@ -13,8 +13,6 @@ function ItemListContainer(){
         console.log(" el nuevo valor de a es  "+a)
     }
         
-
-
 const [characters,setCharacters]=useState([])
 useEffect(()=>{
         fakeStore();

@@ -1,5 +1,5 @@
 
-import sedFooter from "./images/footer.png"
+import sedFooter from "../images/footer.png"
 function Footer(){
     return(
     <footer className="bg-[#FD4900] p-1  shadow-md text-center  flex justify-center">
